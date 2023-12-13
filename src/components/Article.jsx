@@ -55,11 +55,11 @@ const Article = () => {
           {/* Add your content here */}
           <Row>
             <Col>
-              <h3>Deep Learning</h3>
-              <p>Opiniones sobre modelos en deep learning y su impacto</p>
+              <h3>Ransomware y la computacion cuantica</h3>
+              <p>Un artículo sobre la computación cuántica como una herramienta para luchar contra el ransomware.</p>
               <div className="block">
-                <img src="https://www.iberdrola.com/documents/20125/40126/Deep_Learning_746x419.jpg/6f72011f-444c-bbfc-9d43-659d463a22c3?t=1626932434616" alt="Article Image 1" />
-                <a href="https://www.linkedin.com/posts/mauricio-diaz-433699263_activity-7136428710349434880-HFHN?utm_source=share&utm_medium=member_desktop">Read Article</a>
+                <img src="https://nordvpn.com/wp-content/uploads/blog-featured-ransomware-2.svg" alt="Article 1" />
+                <a href="https://www.linkedin.com/pulse/ransomware-y-la-computaci%2525C3%2525B3n-cu%2525C3%2525A1ntica-luis-eduardo-suarez-arroyo-v4tbe%3FtrackingId=QlO7CAJfTKiajCaLKohbKQ%253D%253D/?trackingId=QlO7CAJfTKiajCaLKohbKQ%3D%3D">Read Article</a>
               </div>
             </Col>
           </Row>
