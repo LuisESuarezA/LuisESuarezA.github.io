@@ -2,14 +2,17 @@
 import { Icon } from "@iconify/react";
 
 // Navbar Logo image (uncomment below and import your image)
-// import newLogo from "./images/yourFileName"
+import newLogo from "./images/markOfNaga.jpg"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+// Projects Images (add your images to the images directory and import below)
+import Logo from "./images/worldIcon.jpg";
+import Logo1 from "./images/gitActions.png";
+
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/cieloRojo.jpg";
+import HeroDark from "./images/cieloEstrellado.jpg";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
@@ -21,17 +24,17 @@ export { HeroDark as Dark };
 export const githubUsername = "LuisESuarezA";
 
 // Navbar Logo image
-export const navLogo = undefined;
+export const navLogo = newLogo;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon="mdi:linkedin" />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and how it can be used to solve problems. I love challenges that help me surpass my limits and explore new areas of knowledge. ";
 
 /* Skills
  ************************************************************** 
@@ -91,8 +94,12 @@ export const filteredProjects = ["proyectoNoSqlo2023", "gitActions", "example-3"
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "proyectoNoSqlo2023",
     image: Logo,
+  },
+  {
+    name: "gitActions",
+    image: Logo1,
   },
 ];
 
